@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://loving-johnson-b4b63a.netlify.com/"
+baseURL = "https://tender-kalam-7153e6.netlify.com/"
 languageCode = "en-EN"
 title = "Wize AI"
 
@@ -22,13 +22,13 @@ weight = 1
 title = "Wize AI"
 
 [languages.en.hero]
-  img = "/images/SEB_home.png"
+  img = "/images/tallinn_home.png"
   title = ""
   description = ""
   
 # Hero section estonian (from here on is for icon theme)
 [languages.et.hero]
-  img = "/images/SEB_home.png"
+  img = "/images/tallinn_home.png"
   title = "Lorem ipsum"
   description = "Lorem ipsum dolor sit amet"
 
