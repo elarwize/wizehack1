@@ -2,7 +2,7 @@
 theme = "hugo-icon"
 baseURL = "https://tender-kalam-7153e6.netlify.com/"
 languageCode = "en-EN"
-title = "Wize Municipality"
+title = "ee-Bot"
 
 defaultContentLanguage = "en"
 
@@ -15,20 +15,20 @@ defaultContentLanguage = "en"
 [languages]
 [languages.en]
 weight = 0
-title  = "Wize Municipality"
+title  = "ee-Bot"
 
 [languages.et]
 weight = 1
-title = "Wize Municipality"
+title = "ee-Bot"
 
 [languages.en.hero]
-  img = "/images/saaremaa_home.png"
+  img = "/images/err_home.png"
   title = ""
   description = ""
   
 # Hero section estonian (from here on is for icon theme)
 [languages.et.hero]
-  img = "/images/tallinn_home_eng.png"
+  img = "/images/err_home.png"
   title = "Lorem ipsum"
   description = "Lorem ipsum dolor sit amet"
 
