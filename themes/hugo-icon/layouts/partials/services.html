@@ -18,7 +18,9 @@
       </div>
     </div>
     {{ end }}
-    
+
+	  <button type="button" onclick="javascript:openChat">open chat</button>
+
     <div class="col-md-12 text-center">
       <p><a href="#" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="contact">Get In Touch</a></p>
       <p><a href="#" class="bai-open-chat-btn btn btn-primary btn-outline fh5co-content-nav" >Boost</a></p>
@@ -41,8 +43,10 @@
                     chatPanel.show();
 
 		// Open panel on click
-		document.querySelector('.bai-open-chat-btn')
-			.addEventListener('click', function () {chatPanel.show()});
+		//document.querySelector('.bai-open-chat-btn')
+		//	.addEventListener('click', function () {chatPanel.show()});
+		function openChat()	{ chatPanel.show(); }
+
     </script>
 	  
    <!-- Boost chat end -->
