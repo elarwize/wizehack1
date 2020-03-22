@@ -22,13 +22,13 @@ weight = 1
 title = "ee-Bot"
 
 [languages.en.hero]
-  img = "/images/tv3_home.png"
+  img = "/images/3108_Winter.png"
   title = ""
   description = ""
   
 # Hero section estonian (from here on is for icon theme)
 [languages.et.hero]
-  img = "/images/tv3_home"
+  img = "/images/3108_Winter.png"
   title = "Lorem ipsum"
   description = "Lorem ipsum dolor sit amet"
 
