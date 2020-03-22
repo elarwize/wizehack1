@@ -2,7 +2,7 @@
 theme = "hugo-icon"
 baseURL = "https://tender-kalam-7153e6.netlify.com/"
 languageCode = "en-EN"
-title = "ee-Bot"
+title = "Suve"
 
 defaultContentLanguage = "en"
 
@@ -15,11 +15,11 @@ defaultContentLanguage = "en"
 [languages]
 [languages.en]
 weight = 0
-title  = "ee-Bot"
+title  = "Suve"
 
 [languages.et]
 weight = 1
-title = "ee-Bot"
+title = "Suve"
 
 [languages.en.hero]
   img = "/images/3108_Winter.png"
