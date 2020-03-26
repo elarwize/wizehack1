@@ -22,13 +22,13 @@ weight = 1
 title = "Suve"
 
 [languages.en.hero]
-  img = "/images/354_Nature.png"
+  img = "/images/3108_Winter.png"
   title = ""
   description = ""
   
 # Hero section estonian (from here on is for icon theme)
 [languages.et.hero]
-  img = "/images/354_Nature.png"
+  img = "/images/3108_Winter.png"
   title = "Lorem ipsum"
   description = "Lorem ipsum dolor sit amet"
 
