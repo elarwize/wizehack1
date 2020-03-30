@@ -25,33 +25,32 @@
       <p><a href="#" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="contact">Get In Touch</a></p>
       <p><a href="#" class="bai-open-chat-btn btn btn-primary btn-outline fh5co-content-nav" >Boost</a></p>
     </div>
-    <!-- Boost chat begin -->
-     <!-- Boost chat v1  <script src="https://partner3.boost.ai/js/bai-chat.js"></script> -->
+     <!-- Suve chat begin -->
+
     <script src="https://316eebot.boost.ai/chatPanel/chatPanel.js"></script> 
     <script type="application/javascript">
-
 		// Create chat panel
-	    
 		var chatPanel = window.boostChatPanel({	
-		//enableMic: true,		//enable mic
+			apiUrlBase: 'https://316eebot.boost.ai/api',  
+	// filter on vajalik vestluste sildistamiseks
+       filterValues:[‘teeviit’]
 
-                apiUrlBase: 'https://316eebot.boost.ai/api',  //for v2 chat
-		  title:['Suve - Sinu abiline'],
-			  // language:'et-EE'
-//	 botIconUrl: 'https://dl.dropbox.com/s/69ra7tpbryz5l6w/ITA_Bouble_Speech.png',
-	 botIconUrl: 'https://eebot.ee/eman.png',
-		 filterValues:['fb']
+    // eesti keel on vaikimisi aktiivne
+    // inglise lehelt avades vajalik määrata tervitusteksti keel 'en-US' ja vene lehelt 'ru-RU'
+	// language:'et-EE'  
+
 		});
-                    chatPanel.show();
 
-		// Open panel on click
-		//document.querySelector('.bai-open-chat-btn')
-		//	.addEventListener('click', function () {chatPanel.show()});
-		function openChat()	{ chatPanel.show(); }
+		// Chati avamiseks automaatselt
+			chatPanel.show();  
+
+		// Chati avamine klikkides
+
+		// function openChat()	{ chatPanel.show(); }
 
     </script>
 	  
-   <!-- Boost chat end -->
+   <!-- Suve chat end -->
 
   </div>
   {{ end }}
