@@ -29,7 +29,7 @@
     <script src="https://partner3.boost.ai/chatPanel/chatPanel.js"></script> 
     <script type="application/javascript">
 		// Create chat panel
-		var chatPanel = window.boostInit("partner3");  
+		var boost = window.boostInit("partner3");  
 	// filter on vajalik vestluste sildistamiseks
 	//	 title:['Test'],
       // filterValues:['perh'],
@@ -45,7 +45,7 @@
 
 		// Open panel on click
 		document.querySelector('.bai-open-chat-btn')
-			.addEventListener('click', function () {chatPanel.show()});
+			.addEventListener('click', function () {boost.chatPanel.show()});
 			// .addEventListener('load', function () {chatPanel.triggerAction()});
 		// Chati avamiseks automaatselt
 		//	chatPanel.show();  
