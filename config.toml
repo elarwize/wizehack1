@@ -1,8 +1,8 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://tender-kalam-7153e6.netlify.com/"
+baseURL = "https://tender-kalam-7153e6.netlify.app/"
 languageCode = "en-EN"
-title = "Suve"
+title = "VA Demo"
 
 defaultContentLanguage = "en"
 
@@ -15,11 +15,11 @@ defaultContentLanguage = "en"
 [languages]
 [languages.en]
 weight = 0
-title  = "Suve"
+title  = "VA Demo"
 
 [languages.et]
 weight = 1
-title = "Suve"
+title = "VA Demo"
 
 [languages.en.hero]
   img = "/images/3108_Winter.png"
