@@ -25,24 +25,22 @@
       <p><a href="#" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="contact">Get In Touch</a></p>
       <p><a href="#" class="bai-open-chat-btn btn btn-primary btn-outline fh5co-content-nav" >Boost</a></p>
     </div>
-     <!-- Suve chat begin -->
-
+	  
     <script src="https://partner3.boost.ai/chatPanel/chatPanel.js"></script> 
     <script type="application/javascript">
 		// Create chat panel
-		var chatPanel = window.boostChatPanel({	
-			apiUrlBase: 'https://partner3.boost.ai/api',  
+		var chatPanel = window.boostInit("partner3");  
 	// filter on vajalik vestluste sildistamiseks
-		 title:['Test'],
+	//	 title:['Test'],
       // filterValues:['perh'],
-		 hyperlinksTargetBlank:1
+	//	 hyperlinksTargetBlank:1
 		// showLinkClick: 'true'
 
     // eesti keel on vaikimisi aktiivne
     // inglise lehelt avades vajalik määrata tervitusteksti keel 'en-US' ja vene lehelt 'ru-RU'
 	// language:'ru'  
 
-		});
+//		});
 	  //  setTimeout (() => { chatPanel.triggerAction();}, 3927);  // 3927
 
 		// Open panel on click
